@@ -11,7 +11,7 @@
 
 function isSortedAndHow(array) {
     const ascArray = [...array].sort((a, b) => a-b);
-    const descArray = [...ascArray].reverse();
+    const descArray = [...ascArray].reverse(); 
     
     const yesAscending = array.join() == ascArray.join();
     const yesDescending = array.join() == descArray.join();
