@@ -11,7 +11,7 @@ function andieSolution(array,stuffToRemoveFromArray) {
    
     const result = originalArray.filter(number => {
         return !argsArray.includes(number)
-    })
+    }) 
 
    return result 
 }
